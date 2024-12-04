@@ -1,5 +1,6 @@
 // Base path for assets
-const BASE_PATH = './assets/';
+// const BASE_PATH = './assets/';
+const BASE_PATH  = 'https://raw.githubusercontent.com/estebanrfp/ovgrid-assets/master/assets2/';
 
 let allItems = [];
 let currentPackItems = [];

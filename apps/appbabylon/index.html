@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babylon.js Grid Scroll</title>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+</head>
+
+<body>
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #101115;
+    }
+
+    canvas#renderCanvas {
+      width: 100%;
+      height: 100vh;
+    }
+
+    #renderCanvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+      z-index: 1000;
+      position: absolute;
+    }
+
+    div#packs-container {
+      position: fixed;
+      z-index: 10000;
+    }
+  </style>
+  <header>
+    <div id="packs-container">
+      <!-- Botones para seleccionar packs se generarán aquí -->
+    </div>
+    <div id="filters-container">
+      <!-- Aquí se generan dinámicamente los filtros -->
+    </div>
+  </header>
+
+  <canvas id="renderCanvas" touch-action="none"></canvas>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
