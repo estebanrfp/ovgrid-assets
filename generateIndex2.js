@@ -1,35 +1,72 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_DIR = './textures'; // Ruta a la carpeta de assets
+const BASE_DIR = './grounds'; // Ruta a la carpeta de assets
 
 function generateIndex(baseDir) {
-  // Leer las carpetas principales
   const packs = fs.readdirSync(baseDir).filter(folder => {
     const packPath = path.join(baseDir, folder);
-    return fs.statSync(packPath).isDirectory(); // Confirmar que son directorios
+    return fs.statSync(packPath).isDirectory();
   }).map(folder => {
-    const assetPath = path.join(baseDir, folder, 'asset.json');
-    const assetData = fs.existsSync(assetPath) ? JSON.parse(fs.readFileSync(assetPath)) : null;
+    const subfolders = fs.readdirSync(path.join(baseDir, folder)).filter(subfolder => {
+      const subfolderPath = path.join(baseDir, folder, subfolder);
+      return fs.statSync(subfolderPath).isDirectory();
+    }).map(subfolder => {
+      const assetPath = path.join(baseDir, folder, subfolder, 'asset.json');
+      const assetData = fs.existsSync(assetPath) ? JSON.parse(fs.readFileSync(assetPath)) : null;
 
-    // Obtener archivos .ktx2 dentro de la carpeta
-    const textureFiles = fs.readdirSync(path.join(baseDir, folder))
-      .filter(file => file.endsWith('.ktx2')) // Filtrar solo archivos .ktx2
-      .map(file => `${folder}/${file}`); // Construir la ruta relativa
+      return {
+        folder: subfolder,
+        name: assetData?.name || 'Unknown',
+        tags: assetData?.tags || [],
+        category: assetData?.category || 'Unknown',
+        thumbnail: `${folder}/${subfolder}/thumbnail.png`,
+        layer1: `${folder}/${subfolder}/layer1-512-mipmap-atlas.ktx2`,
+        layer2: `${folder}/${subfolder}/layer2-512-mipmap-atlas.ktx2`,
+        layer3: `${folder}/${subfolder}/layer3-512-mipmap-atlas.ktx2`,
+        layer4: `${folder}/${subfolder}/layer4-512-mipmap-atlas.ktx2`,
+        layer5: `${folder}/${subfolder}/layer5-512-mipmap-atlas.ktx2`,
+        layer6: `${folder}/${subfolder}/layer6-512-mipmap-atlas.ktx2`
+      };
+    });
 
     return {
       folder,
-      name: assetData?.name || 'Unknown', // Nombre del pack desde asset.json
-      tags: assetData?.tags || [], // Tags opcionales desde asset.json
-      category: assetData?.category || 'Unknown', // Categoría opcional desde asset.json
-      thumbnail: `${folder}/thumbnail.png`,
-      layers: textureFiles // Usar los archivos .ktx2 reales
+      title: folder.replace(/_/g, ' '), // Convertir nombre del pack (opcional)
+      items: subfolders
     };
   });
 
-  // Escribir el archivo index.json
   fs.writeFileSync(path.join(baseDir, 'index.json'), JSON.stringify({ packs }, null, 2));
   console.log('index.json generado correctamente.');
 }
 
 generateIndex(BASE_DIR);
+
+// const fs = require('fs');
+// const path = require('path');
+
+// const BASE_DIR = './assets'; // Cambia esto a tu ruta de assets
+
+// function generateIndex(baseDir) {
+//   const packs = fs.readdirSync(baseDir).filter(folder => {
+//     const packPath = path.join(baseDir, folder);
+//     return fs.statSync(packPath).isDirectory();
+//   }).map(folder => {
+//     const subfolders = fs.readdirSync(path.join(baseDir, folder)).filter(subfolder => {
+//       const subfolderPath = path.join(baseDir, folder, subfolder);
+//       return fs.statSync(subfolderPath).isDirectory();
+//     });
+
+//     return {
+//       folder,
+//       title: folder.replace(/_/g, ' '), // Opcional: Convierte "05_Fantasy_Pack" en "Fantasy Pack"
+//       subfolders
+//     };
+//   });
+
+//   fs.writeFileSync(path.join(baseDir, 'index.json'), JSON.stringify({ packs }, null, 2));
+//   console.log('index.json generado correctamente.');
+// }
+
+// generateIndex(BASE_DIR);

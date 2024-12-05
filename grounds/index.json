@@ -1,0 +1,40 @@
+{
+  "packs": [
+    {
+      "folder": "Default",
+      "title": "Default",
+      "items": [
+        {
+          "folder": "nature",
+          "name": "default",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "Default/nature/thumbnail.png",
+          "layer1": "Default/nature/layer1-512-mipmap-atlas.ktx2",
+          "layer2": "Default/nature/layer2-512-mipmap-atlas.ktx2",
+          "layer3": "Default/nature/layer3-512-mipmap-atlas.ktx2",
+          "layer4": "Default/nature/layer4-512-mipmap-atlas.ktx2",
+          "layer5": "Default/nature/layer5-512-mipmap-atlas.ktx2",
+          "layer6": "Default/nature/layer6-512-mipmap-atlas.ktx2"
+        },
+        {
+          "folder": "snow",
+          "name": "Snow",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "Default/snow/thumbnail.png",
+          "layer1": "Default/snow/layer1-512-mipmap-atlas.ktx2",
+          "layer2": "Default/snow/layer2-512-mipmap-atlas.ktx2",
+          "layer3": "Default/snow/layer3-512-mipmap-atlas.ktx2",
+          "layer4": "Default/snow/layer4-512-mipmap-atlas.ktx2",
+          "layer5": "Default/snow/layer5-512-mipmap-atlas.ktx2",
+          "layer6": "Default/snow/layer6-512-mipmap-atlas.ktx2"
+        }
+      ]
+    }
+  ]
+}
