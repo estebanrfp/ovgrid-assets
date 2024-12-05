@@ -5,6 +5,16 @@
       "title": "Default",
       "items": [
         {
+          "folder": "grass",
+          "name": "Grass",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "Default/grass/thumbnail.png",
+          "layers": "Default/grass/"
+        },
+        {
           "folder": "nature",
           "name": "default",
           "tags": [
@@ -15,6 +25,16 @@
           "layers": "Default/nature/"
         },
         {
+          "folder": "neon",
+          "name": "Neon",
+          "tags": [
+            "nature"
+          ],
+          "category": "neon",
+          "thumbnail": "Default/neon/thumbnail.png",
+          "layers": "Default/neon/"
+        },
+        {
           "folder": "snow",
           "name": "Snow",
           "tags": [
@@ -23,6 +43,16 @@
           "category": "nature",
           "thumbnail": "Default/snow/thumbnail.png",
           "layers": "Default/snow/"
+        },
+        {
+          "folder": "terrain",
+          "name": "Snow",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "Default/terrain/thumbnail.png",
+          "layers": "Default/terrain/"
         }
       ]
     }
