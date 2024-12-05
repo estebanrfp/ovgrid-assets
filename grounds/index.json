@@ -12,7 +12,7 @@
           ],
           "category": "nature",
           "thumbnail": "Default/nature/thumbnail.png",
-          "layers": "nature"
+          "layers": "Default/nature/"
         },
         {
           "folder": "snow",
@@ -22,7 +22,7 @@
           ],
           "category": "nature",
           "thumbnail": "Default/snow/thumbnail.png",
-          "layers": "snow"
+          "layers": "Default/snow/"
         }
       ]
     }

@@ -21,7 +21,7 @@ function generateIndex(baseDir) {
         tags: assetData?.tags || [],
         category: assetData?.category || 'Unknown',
         thumbnail: `${folder}/${subfolder}/thumbnail.png`,
-        layers: subfolder,
+        layers: `${folder}/${subfolder}/`,
         // layer2: `${folder}/${subfolder}/layer2-512-mipmap-atlas.ktx2`,
         // layer3: `${folder}/${subfolder}/layer3-512-mipmap-atlas.ktx2`,
         // layer4: `${folder}/${subfolder}/layer4-512-mipmap-atlas.ktx2`,
