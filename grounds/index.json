@@ -1,28 +1,92 @@
 {
   "packs": [
     {
-      "folder": "Default",
-      "title": "Default",
+      "folder": "heightmaps",
+      "title": "heightmaps",
       "items": [
         {
-          "folder": "grass",
+          "folder": "hm1",
+          "name": "hm1",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm1/thumbnail.png",
+          "layer": "heightmaps/hm1/layer.ktx2"
+        },
+        {
+          "folder": "hm2",
+          "name": "Neon",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm2/thumbnail.png",
+          "layer": "heightmaps/hm2/layer.ktx2"
+        }
+      ]
+    },
+    {
+      "folder": "textures",
+      "title": "textures",
+      "items": [
+        {
+          "folder": "decentraland-grass1",
           "name": "Grass",
           "tags": [
             "nature"
           ],
           "category": "nature",
-          "thumbnail": "Default/grass/thumbnail.png",
-          "layers": "Default/grass/"
+          "thumbnail": "textures/decentraland-grass1/thumbnail.png",
+          "layer": "textures/decentraland-grass1/layer.ktx2"
         },
         {
-          "folder": "nature",
-          "name": "default",
+          "folder": "decentraland-grass2",
+          "name": "Grass",
           "tags": [
             "nature"
           ],
           "category": "nature",
-          "thumbnail": "Default/nature/thumbnail.png",
-          "layers": "Default/nature/"
+          "thumbnail": "textures/decentraland-grass2/thumbnail.png",
+          "layer": "textures/decentraland-grass2/layer.ktx2"
+        },
+        {
+          "folder": "decentraland-grounds",
+          "name": "Unknown",
+          "tags": [],
+          "category": "Unknown",
+          "thumbnail": "textures/decentraland-grounds/thumbnail.png",
+          "layer": "textures/decentraland-grounds/layer.ktx2"
+        },
+        {
+          "folder": "decentraland-sand1",
+          "name": "Grass",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "textures/decentraland-sand1/thumbnail.png",
+          "layer": "textures/decentraland-sand1/layer.ktx2"
+        },
+        {
+          "folder": "grass",
+          "name": "default",
+          "tags": [
+            "nature"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/grass/thumbnail.png",
+          "layer": "textures/grass/layer.ktx2"
+        },
+        {
+          "folder": "grass3",
+          "name": "Grass 3",
+          "tags": [
+            "nature"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/grass3/thumbnail.png",
+          "layer": "textures/grass3/layer.ktx2"
         },
         {
           "folder": "neon",
@@ -31,8 +95,18 @@
             "nature"
           ],
           "category": "neon",
-          "thumbnail": "Default/neon/thumbnail.png",
-          "layers": "Default/neon/"
+          "thumbnail": "textures/neon/thumbnail.png",
+          "layer": "textures/neon/layer.ktx2"
+        },
+        {
+          "folder": "sand",
+          "name": "Snow",
+          "tags": [
+            "nature"
+          ],
+          "category": "nature",
+          "thumbnail": "textures/sand/thumbnail.png",
+          "layer": "textures/sand/layer.ktx2"
         },
         {
           "folder": "snow",
@@ -40,19 +114,19 @@
           "tags": [
             "nature"
           ],
-          "category": "nature",
-          "thumbnail": "Default/snow/thumbnail.png",
-          "layers": "Default/snow/"
+          "category": "textures",
+          "thumbnail": "textures/snow/thumbnail.png",
+          "layer": "textures/snow/layer.ktx2"
         },
         {
           "folder": "terrain",
-          "name": "Snow",
+          "name": "Terrain",
           "tags": [
             "nature"
           ],
-          "category": "nature",
-          "thumbnail": "Default/terrain/thumbnail.png",
-          "layers": "Default/terrain/"
+          "category": "textures",
+          "thumbnail": "textures/terrain/thumbnail.png",
+          "layer": "textures/terrain/layer.ktx2"
         }
       ]
     }
