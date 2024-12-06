@@ -31,6 +31,86 @@
       "title": "textures",
       "items": [
         {
+          "folder": "FloorBaseDirt_01",
+          "name": "FloorBaseDirt_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseDirt_01/thumbnail.png",
+          "layer": "textures/FloorBaseDirt_01/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseDirt_02",
+          "name": "FloorBaseDirt_02",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseDirt_02/thumbnail.png",
+          "layer": "textures/FloorBaseDirt_02/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseGrass_01",
+          "name": "FloorBaseGrass_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseGrass_01/thumbnail.png",
+          "layer": "textures/FloorBaseGrass_01/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseGrass_02",
+          "name": "FloorBaseGrass_02",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseGrass_02/thumbnail.png",
+          "layer": "textures/FloorBaseGrass_02/layer.ktx2"
+        },
+        {
+          "folder": "FloorBasePebbles_01",
+          "name": "FloorBasePebbles_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBasePebbles_01/thumbnail.png",
+          "layer": "textures/FloorBasePebbles_01/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseSand_01",
+          "name": "FloorBaseSand_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseSand_01/thumbnail.png",
+          "layer": "textures/FloorBaseSand_01/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseTiles_01",
+          "name": "FloorBaseTiles_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseTiles_01/thumbnail.png",
+          "layer": "textures/FloorBaseTiles_01/layer.ktx2"
+        },
+        {
+          "folder": "FloorBaseWood_01",
+          "name": "FloorBaseWood_01",
+          "tags": [
+            "decentraland"
+          ],
+          "category": "Textures",
+          "thumbnail": "textures/FloorBaseWood_01/thumbnail.png",
+          "layer": "textures/FloorBaseWood_01/layer.ktx2"
+        },
+        {
           "folder": "decentraland-grass1",
           "name": "Grass",
           "tags": [
