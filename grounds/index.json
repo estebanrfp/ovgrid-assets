@@ -33,6 +33,26 @@
           "category": "island",
           "thumbnail": "heightmaps/hm3/thumbnail.png",
           "layer": "heightmaps/hm3/layer.ktx2"
+        },
+        {
+          "folder": "hm4",
+          "name": "Simple Island",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm4/thumbnail.png",
+          "layer": "heightmaps/hm4/layer.ktx2"
+        },
+        {
+          "folder": "hm5",
+          "name": "Compact Island",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm5/thumbnail.png",
+          "layer": "heightmaps/hm5/layer.ktx2"
         }
       ]
     },
