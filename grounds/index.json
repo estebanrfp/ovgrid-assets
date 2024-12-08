@@ -23,6 +23,16 @@
           "category": "island",
           "thumbnail": "heightmaps/hm2/thumbnail.png",
           "layer": "heightmaps/hm2/layer.ktx2"
+        },
+        {
+          "folder": "hm3",
+          "name": "Hole Island",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm3/thumbnail.png",
+          "layer": "heightmaps/hm3/layer.ktx2"
         }
       ]
     },
