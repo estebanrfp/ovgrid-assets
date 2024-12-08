@@ -53,6 +53,16 @@
           "category": "island",
           "thumbnail": "heightmaps/hm5/thumbnail.png",
           "layer": "heightmaps/hm5/layer.ktx2"
+        },
+        {
+          "folder": "hm6",
+          "name": "Smooth Island",
+          "tags": [
+            "island"
+          ],
+          "category": "island",
+          "thumbnail": "heightmaps/hm6/thumbnail.png",
+          "layer": "heightmaps/hm6/layer.ktx2"
         }
       ]
     },
@@ -141,16 +151,6 @@
           "layer": "textures/FloorBaseWood_01/layer.ktx2"
         },
         {
-          "folder": "decentraland-grass1",
-          "name": "Grass",
-          "tags": [
-            "nature"
-          ],
-          "category": "nature",
-          "thumbnail": "textures/decentraland-grass1/thumbnail.png",
-          "layer": "textures/decentraland-grass1/layer.ktx2"
-        },
-        {
           "folder": "grass",
           "name": "default",
           "tags": [
@@ -186,7 +186,7 @@
           "tags": [
             "nature"
           ],
-          "category": "nature",
+          "category": "Textures",
           "thumbnail": "textures/sand/thumbnail.png",
           "layer": "textures/sand/layer.ktx2"
         },
@@ -196,7 +196,7 @@
           "tags": [
             "nature"
           ],
-          "category": "textures",
+          "category": "Textures",
           "thumbnail": "textures/snow/thumbnail.png",
           "layer": "textures/snow/layer.ktx2"
         },
@@ -206,7 +206,7 @@
           "tags": [
             "nature"
           ],
-          "category": "textures",
+          "category": "Textures",
           "thumbnail": "textures/terrain/thumbnail.png",
           "layer": "textures/terrain/layer.ktx2"
         }
