@@ -151,34 +151,6 @@
           "layer": "textures/decentraland-grass1/layer.ktx2"
         },
         {
-          "folder": "decentraland-grass2",
-          "name": "Grass",
-          "tags": [
-            "nature"
-          ],
-          "category": "nature",
-          "thumbnail": "textures/decentraland-grass2/thumbnail.png",
-          "layer": "textures/decentraland-grass2/layer.ktx2"
-        },
-        {
-          "folder": "decentraland-grounds",
-          "name": "Unknown",
-          "tags": [],
-          "category": "Unknown",
-          "thumbnail": "textures/decentraland-grounds/thumbnail.png",
-          "layer": "textures/decentraland-grounds/layer.ktx2"
-        },
-        {
-          "folder": "decentraland-sand1",
-          "name": "Grass",
-          "tags": [
-            "nature"
-          ],
-          "category": "nature",
-          "thumbnail": "textures/decentraland-sand1/thumbnail.png",
-          "layer": "textures/decentraland-sand1/layer.ktx2"
-        },
-        {
           "folder": "grass",
           "name": "default",
           "tags": [
