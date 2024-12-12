@@ -9102,6 +9102,16 @@
           "glb": "Ovgrid_Pack/small_folliage_plant/small_folliage_plant.glb"
         },
         {
+          "folder": "starCoin",
+          "name": "starCoin",
+          "tags": [
+            "coins"
+          ],
+          "category": "coins",
+          "thumbnail": "Ovgrid_Pack/starCoin/thumbnail.png",
+          "glb": "Ovgrid_Pack/starCoin/starCoin.glb"
+        },
+        {
           "folder": "tree_low_poly_3d_model",
           "name": "Unknown",
           "tags": [],
