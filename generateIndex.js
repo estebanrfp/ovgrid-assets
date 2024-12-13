@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_DIR = './assets2'; // Ruta a la carpeta de assets
+const BASE_DIR = './assets'; // Ruta a la carpeta de assets
 
 function generateIndex(baseDir) {
   const packs = fs.readdirSync(baseDir).filter(folder => {
