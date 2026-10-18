@@ -9,10 +9,11 @@ each repository stays under GitHub's 1 GB:
 | Repository | What | Size |
 |---|---|---|
 | [ovgrid-assets](https://github.com/estebanrfp/ovgrid-assets) | every material at 256 px — colour, relief (normal) and ORM — its preview, and the bank's `manifest.json` and `index.json` | ~340 MB |
-| [ovgrid-assets-512](https://github.com/estebanrfp/ovgrid-assets-512) | colour and relief at 512 px, for the few materials within 10 m of the camera | ~780 MB |
-| [ovgrid-assets-1024](https://github.com/estebanrfp/ovgrid-assets-1024) | colour at 1024 px, within 4 m | ~570 MB |
+| [ovgrid-textures-512](https://github.com/estebanrfp/ovgrid-textures-512) | colour and relief at 512 px, for the few materials within 10 m of the camera | ~780 MB |
+| [ovgrid-textures-1024](https://github.com/estebanrfp/ovgrid-textures-1024) | colour at 1024 px, within 4 m | ~570 MB |
 
-A material's maps are `textures/<category>/<subcategory>/<name>/<map>-<size>.ktx2`: colour in
+A material's maps are `<category>/<subcategory>/<name>/<map>-<size>.ktx2`, under `textures/` in
+ovgrid-assets and at the root of the two others: colour in
 ETC1S, relief and ORM in UASTC with zstd, each with its full mip chain. Peers also share them by
 their hash, so this origin stays light.
 
