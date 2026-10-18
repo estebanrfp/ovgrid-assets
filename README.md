@@ -1,0 +1,35 @@
+# OVGrid assets
+
+The public texture bank of [OVGrid](https://world.ovgrid.com), an open virtual world on a WebGPU
+planet: 2,772 materials for what people build, at `https://estebanrfp.github.io/ovgrid-assets/`.
+
+Served by GitHub Pages, with CORS open to every origin. The bank is split by resolution so that
+each repository stays under GitHub's 1 GB:
+
+| Repository | What | Size |
+|---|---|---|
+| [ovgrid-assets](https://github.com/estebanrfp/ovgrid-assets) | every material at 256 px — colour, relief (normal) and ORM — its preview, and the bank's `manifest.json` and `index.json` | ~340 MB |
+| [ovgrid-assets-512](https://github.com/estebanrfp/ovgrid-assets-512) | colour and relief at 512 px, for the few materials within 10 m of the camera | ~780 MB |
+| [ovgrid-assets-1024](https://github.com/estebanrfp/ovgrid-assets-1024) | colour at 1024 px, within 4 m | ~570 MB |
+
+A material's maps are `textures/<category>/<subcategory>/<name>/<map>-<size>.ktx2`: colour in
+ETC1S, relief and ORM in UASTC with zstd, each with its full mip chain. Peers also share them by
+their hash, so this origin stays light.
+
+`textures/manifest.json` describes every material (name, category, tags, uses, size in metres,
+colour, licence, authors, source); `textures/index.json` is the light index the world loads first.
+
+## Licence
+
+The materials are dedicated to the public domain under [CC0 1.0](LICENSE), as their sources
+publish them: 1,894 from [ambientCG](https://ambientcg.com), 867 from
+[Poly Haven](https://polyhaven.com), and 11 made by OVGrid itself (water, end grain, glass).
+Attribution is not required, but every material's authors and source page are in
+`textures/manifest.json` — thank you to all of them.
+
+`sounds/` is not part of the bank: it keeps sounds that earlier worlds still load from this
+repository, and the CC0 dedication does not cover them.
+
+## Author
+
+Esteban Fuster Pozzi (@estebanrfp) - Full Stack JavaScript Developer
