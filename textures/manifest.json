@@ -49,7 +49,7 @@
       "wall",
       "floor"
      ],
-     "count": 163
+     "count": 165
     },
     {
      "id": "plaster",
@@ -256,7 +256,7 @@
      "uses": [
       "floor"
      ],
-     "count": 212
+     "count": 213
     },
     {
      "id": "stone",
@@ -272,7 +272,7 @@
      "uses": [
       "floor"
      ],
-     "count": 51
+     "count": 53
     },
     {
      "id": "pavers",
@@ -280,7 +280,7 @@
      "uses": [
       "floor"
      ],
-     "count": 152
+     "count": 180
     },
     {
      "id": "asphalt",
@@ -288,7 +288,7 @@
      "uses": [
       "floor"
      ],
-     "count": 91
+     "count": 92
     },
     {
      "id": "roads",
@@ -296,7 +296,15 @@
      "uses": [
       "road"
      ],
-     "count": 32
+     "count": 33
+    },
+    {
+     "id": "stylized",
+     "name": "Stylized",
+     "uses": [
+      "floor"
+     ],
+     "count": 5
     }
    ]
   },
@@ -204704,6 +204712,3055 @@
       "file": "ground/rock/rock-046s/orm-256.ktx2",
       "bytes": 68285,
       "sha256": "8ec1762a6e86326295645736ef1b09e64b0c5bc6162b2a9f3603b3cfe8a97a37"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/asphalt/asphalt-006-3dtextures",
+   "name": "Asphalt 006",
+   "category": "paving",
+   "subcategory": "asphalt",
+   "tags": [
+    "asphalt"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    3,
+    3
+   ],
+   "color": [
+    0.17,
+    0.165,
+    0.172
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2018/11/12/asphalt-006/",
+   "preview": "paving/asphalt/asphalt-006-3dtextures/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/color-256.ktx2",
+      "bytes": 20844,
+      "sha256": "725b8e482512f3c9b4b1ca3066e947f1de42a2bf671fa5ffb50915b024830620"
+     },
+     "512": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/color-512.ktx2",
+      "bytes": 74832,
+      "sha256": "ffd56d51119ff732043f8e52d0dce3e3f4ddf7985eb8137c42370ddd0d8cb29d"
+     },
+     "1024": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/color-1024.ktx2",
+      "bytes": 233885,
+      "sha256": "4882bbd7b8634c5296d7dd796a54675acdff6cfb95bc92e7eade3193a99975ca"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/normal-256.ktx2",
+      "bytes": 79589,
+      "sha256": "ba2737f40b459dd04548b8bb654898a681b57340b83f6114ce13580f6d328caf"
+     },
+     "512": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/normal-512.ktx2",
+      "bytes": 312771,
+      "sha256": "b50558f2453a112f2fd66200885d79d6aae8580971040e231c8d52cc90a8025b"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/asphalt/asphalt-006-3dtextures/orm-256.ktx2",
+      "bytes": 69856,
+      "sha256": "1f8a0897f1684bd56447ade2c5f0da4a3545af22c2505309ffc415bebc891a75"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/cobblestone/cobblestone-002",
+   "name": "Cobblestone 002",
+   "category": "paving",
+   "subcategory": "cobblestone",
+   "tags": [
+    "cobblestone"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    4.1,
+    4.1
+   ],
+   "color": [
+    0.333,
+    0.333,
+    0.333
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2021/05/10/cobblestone-002/",
+   "preview": "paving/cobblestone/cobblestone-002/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/cobblestone/cobblestone-002/color-256.ktx2",
+      "bytes": 16911,
+      "sha256": "ae19f492fbe9c4e17783f61b329b6b46a6af97b236af70fb15453edb7087eb54"
+     },
+     "512": {
+      "file": "paving/cobblestone/cobblestone-002/color-512.ktx2",
+      "bytes": 61034,
+      "sha256": "270e697f038c30659a27268572764b605f85a77f1cc6adbb8bbc9297dcde978b"
+     },
+     "1024": {
+      "file": "paving/cobblestone/cobblestone-002/color-1024.ktx2",
+      "bytes": 191465,
+      "sha256": "49336c5001b19e07d4a3d3461787fb0b386dc740495cb071aa98186e0dfcac89"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/cobblestone/cobblestone-002/normal-256.ktx2",
+      "bytes": 52159,
+      "sha256": "317fb478ad331fdbf55c37d103760e62fa1e0381a45d2832d81344a38d4ea321"
+     },
+     "512": {
+      "file": "paving/cobblestone/cobblestone-002/normal-512.ktx2",
+      "bytes": 262051,
+      "sha256": "3b112bb4171e957d2a0761a1b8ba688b7ff0ceebb59d503447dc897f44f6616c"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/cobblestone/cobblestone-002/orm-256.ktx2",
+      "bytes": 37279,
+      "sha256": "2e88948886584cf75bf6e84c161c7efa78edd4327a702d8f7fae0c0f1ccc9024"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/cobblestone/tiles-0106",
+   "name": "Circular Cobblestone Paving Texture",
+   "category": "paving",
+   "subcategory": "cobblestone",
+   "tags": [
+    "tile",
+    "circle",
+    "circular",
+    "paving",
+    "cobblestone",
+    "round",
+    "outdoor",
+    "white",
+    "grey",
+    "gray",
+    "floor"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    7.5,
+    7.5
+   ],
+   "color": [
+    0.315,
+    0.316,
+    0.314
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/558/",
+   "preview": "paving/cobblestone/tiles-0106/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/cobblestone/tiles-0106/color-256.ktx2",
+      "bytes": 19317,
+      "sha256": "5ca6b87cbdeea98e7b5c28562917b29fd8c4806cecdec8f66a6954b045b0edff"
+     },
+     "512": {
+      "file": "paving/cobblestone/tiles-0106/color-512.ktx2",
+      "bytes": 69094,
+      "sha256": "8133a379cd5dbe074f82966b5d3530a6fb32471966de542ec81fe79dd58c4900"
+     },
+     "1024": {
+      "file": "paving/cobblestone/tiles-0106/color-1024.ktx2",
+      "bytes": 212548,
+      "sha256": "418a7442836603469f4b2f9f78599436fe45e18cb6a26eff3f22a9d32b2ee31b"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/cobblestone/tiles-0106/normal-256.ktx2",
+      "bytes": 67051,
+      "sha256": "34264bc70f2560cf28178d789172ccb9e5461fe4943c23e39a730fb278ba7644"
+     },
+     "512": {
+      "file": "paving/cobblestone/tiles-0106/normal-512.ktx2",
+      "bytes": 299202,
+      "sha256": "383383cc7a50ab0b8f019fae60e0208da0a0ceb13909388648b0fe3bd98b8e78"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/cobblestone/tiles-0106/orm-256.ktx2",
+      "bytes": 41531,
+      "sha256": "5e1e01a353a63fbb006c9723fabc25a0ab28d32d78e4a601734bb63836dde17f"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/bricks-0010",
+   "name": "Traditional Red or Orange Brick Texture in Basket Weave Layout",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "wall",
+    "rough",
+    "dirt",
+    "pore",
+    "brown",
+    "orange",
+    "floor",
+    "road",
+    "pavement",
+    "street",
+    "damaged",
+    "worn",
+    "broken",
+    "pattern",
+    "running",
+    "bond",
+    "pit",
+    "pitting"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.6,
+    1.6
+   ],
+   "color": [
+    0.445,
+    0.188,
+    0.114
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/89/",
+   "preview": "paving/pavers/bricks-0010/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/bricks-0010/color-256.ktx2",
+      "bytes": 17852,
+      "sha256": "e90ace8c939700994ced1fbfbf4753d4fee5b0e8f34521be89de6df00f4bd9eb"
+     },
+     "512": {
+      "file": "paving/pavers/bricks-0010/color-512.ktx2",
+      "bytes": 63162,
+      "sha256": "f37893aa1ea7db980f81194094c1705e02f72beb431c1ccea0254c4adb38873d"
+     },
+     "1024": {
+      "file": "paving/pavers/bricks-0010/color-1024.ktx2",
+      "bytes": 186422,
+      "sha256": "4802bf310fb526c7e053da69a99d12412966b0345aaf3d96c489d0ac00133ac6"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/bricks-0010/normal-256.ktx2",
+      "bytes": 71857,
+      "sha256": "3fae3ec4ea36488755eda8bbee53ce1b4074557aed77f97812e517898ca97c6c"
+     },
+     "512": {
+      "file": "paving/pavers/bricks-0010/normal-512.ktx2",
+      "bytes": 305238,
+      "sha256": "0d49a4a18872d4964aa48a772ba7cee960bcb4eb6618334df343a8b71b00f319"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/bricks-0010/orm-256.ktx2",
+      "bytes": 57235,
+      "sha256": "a3fc3311a48eae01ffe016bde4cf34fe7349566307727a3c538f41d3b0a5f5cc"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/bricks-0023",
+   "name": "Parquet Brick Floor Texture",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "bricks",
+    "parquet",
+    "woodblock",
+    "block",
+    "floor",
+    "flooring",
+    "red",
+    "pavement",
+    "paver",
+    "rectangular"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.8,
+    1.8
+   ],
+   "color": [
+    0.437,
+    0.212,
+    0.136
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/583/",
+   "preview": "paving/pavers/bricks-0023/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/bricks-0023/color-256.ktx2",
+      "bytes": 19289,
+      "sha256": "379a29fe62e1eb5d08de5dee8a5140239a9f1513f21edbe64c2c1f54f10d0f6e"
+     },
+     "512": {
+      "file": "paving/pavers/bricks-0023/color-512.ktx2",
+      "bytes": 70223,
+      "sha256": "f457722187a4168b2999940a117fac84f2d374ecbb715fb95631700849205859"
+     },
+     "1024": {
+      "file": "paving/pavers/bricks-0023/color-1024.ktx2",
+      "bytes": 224045,
+      "sha256": "00bbdcb13fdb660adb62d2c2e6c430563e397a72f46b720952091b2c51f1cd70"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/bricks-0023/normal-256.ktx2",
+      "bytes": 68477,
+      "sha256": "dbe6d9586e179ba4ce02aeba1fb82c8a4d557caf96e64eb4757e78d586bd9162"
+     },
+     "512": {
+      "file": "paving/pavers/bricks-0023/normal-512.ktx2",
+      "bytes": 305105,
+      "sha256": "28770bd966725df2f794c57387a2e65fd8eecd2c7c0b313f8bffbd1741fa80f1"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/bricks-0023/orm-256.ktx2",
+      "bytes": 36469,
+      "sha256": "9e053154665b634376e64481b666e83d04a40998a69932f126b3974f2679232a"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/concrete-0029",
+   "name": "Gray Wall or Floor of Larger Darker and Smaller Lighter Tiles",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "concrete",
+    "tile",
+    "grey",
+    "gray",
+    "rectangle",
+    "rectangular",
+    "wall",
+    "floor",
+    "pavement",
+    "dirt",
+    "dirty",
+    "checker"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    3,
+    3
+   ],
+   "color": [
+    0.14,
+    0.14,
+    0.14
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/632/",
+   "preview": "paving/pavers/concrete-0029/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/concrete-0029/color-256.ktx2",
+      "bytes": 17055,
+      "sha256": "80b18c05d3dfab488294aab3e59a3dae328e38dc6f31ac4828e8e971849250c8"
+     },
+     "512": {
+      "file": "paving/pavers/concrete-0029/color-512.ktx2",
+      "bytes": 62170,
+      "sha256": "36534c655cc85681dac40cd0e6da84abd0e5d38a0570c793ccdd5d77487c2a42"
+     },
+     "1024": {
+      "file": "paving/pavers/concrete-0029/color-1024.ktx2",
+      "bytes": 199306,
+      "sha256": "fee3e3663dbf1fffaf6773a39430698dfe9877dd763a5d28d0554faaf6734be5"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/concrete-0029/normal-256.ktx2",
+      "bytes": 30252,
+      "sha256": "2789144d8be923c7af271aeb8aa18be12e0891c6fa903c3ec83d083ab7682061"
+     },
+     "512": {
+      "file": "paving/pavers/concrete-0029/normal-512.ktx2",
+      "bytes": 118982,
+      "sha256": "9286aa96cc8279dd60fc3353320968de6b676530883a296323457ce6acdd9957"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/concrete-0029/orm-256.ktx2",
+      "bytes": 37504,
+      "sha256": "34af5dabd8bb08fc069781942f8423870aedc3046697fd770bf2a0ee5698d83e"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/ground-0045",
+   "name": "Concentric Circle Paving Tiles",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "pavement",
+    "tile",
+    "brick",
+    "circle",
+    "circular",
+    "concentric",
+    "concrete",
+    "damaged",
+    "patterned",
+    "outdoor",
+    "patio",
+    "floor",
+    "street",
+    "moss",
+    "gray",
+    "dirty",
+    "dirt"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    4.5,
+    4.5
+   ],
+   "color": [
+    0.093,
+    0.095,
+    0.086
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/623/",
+   "preview": "paving/pavers/ground-0045/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/ground-0045/color-256.ktx2",
+      "bytes": 18545,
+      "sha256": "87ebb2de29dc04474a1c5e05b96bc7780147c9871f2b48cb8cf01449cfb010d7"
+     },
+     "512": {
+      "file": "paving/pavers/ground-0045/color-512.ktx2",
+      "bytes": 66434,
+      "sha256": "0269b053c68774b53c84a47412a4819722982d9756b5fb1c953f2da85688abda"
+     },
+     "1024": {
+      "file": "paving/pavers/ground-0045/color-1024.ktx2",
+      "bytes": 212106,
+      "sha256": "444250e94c2f0e781c69e87f997d846db5e0caff744c42494dd2250c550296d8"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/ground-0045/normal-256.ktx2",
+      "bytes": 63254,
+      "sha256": "9123484c10653aa2ac1fef7705dcfb52fc7dcffa6892e0733d9cc230f7a5513a"
+     },
+     "512": {
+      "file": "paving/pavers/ground-0045/normal-512.ktx2",
+      "bytes": 274954,
+      "sha256": "2a991c63e3abbc4bb9189b169ae6fee22092b2ece321ff53f823be72f7c782ea"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/ground-0045/orm-256.ktx2",
+      "bytes": 59265,
+      "sha256": "f7ed30505764715a80f2f941bd2890233de9648ec63a99ceca38fc815a90cc8f"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/stone-floor-004",
+   "name": "Stone Floor 004",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "stone",
+    "floor"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    3.42,
+    3.42
+   ],
+   "color": [
+    0.593,
+    0.576,
+    0.559
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2022/09/14/stone-floor-004/",
+   "preview": "paving/pavers/stone-floor-004/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/stone-floor-004/color-256.ktx2",
+      "bytes": 19258,
+      "sha256": "97370c6a7c454c3162bb8cbebe760f6ae2dcde0a8c7fdb18e9d0c7d7cb13db8a"
+     },
+     "512": {
+      "file": "paving/pavers/stone-floor-004/color-512.ktx2",
+      "bytes": 69840,
+      "sha256": "73a244cd64e5c55ce4cd966666463e74495dd8cedee46a680920c2b62da4f969"
+     },
+     "1024": {
+      "file": "paving/pavers/stone-floor-004/color-1024.ktx2",
+      "bytes": 219167,
+      "sha256": "1380c2e225121c94179c06e6d1951edd000412705309bb508fb50cb48fcd13ab"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/stone-floor-004/normal-256.ktx2",
+      "bytes": 10096,
+      "sha256": "2cdc72d66fa457e8b6488f29eeccb58ac5cb869c3a390d359dcd137cd95498cc"
+     },
+     "512": {
+      "file": "paving/pavers/stone-floor-004/normal-512.ktx2",
+      "bytes": 34066,
+      "sha256": "7a49c549a6e83590212a9ac7a9303a9fd554b241115205149d9277e61855f63f"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/stone-floor-004/orm-256.ktx2",
+      "bytes": 32770,
+      "sha256": "ed6fcc9afc2c0c94495a05ae678ee8a1ac273d8f8850d1cb318e637ecfe27a17"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/stone-floor-006",
+   "name": "Stone Floor 006",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "stone",
+    "floor"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.4,
+    2.4
+   ],
+   "color": [
+    0.03,
+    0.031,
+    0.029
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2021/12/15/stone-floor-006/",
+   "preview": "paving/pavers/stone-floor-006/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/stone-floor-006/color-256.ktx2",
+      "bytes": 17748,
+      "sha256": "ba30b9af0dd9ba41eeef6faff1ad1fc671cfbf80c5f4d567b973bcdc475a8840"
+     },
+     "512": {
+      "file": "paving/pavers/stone-floor-006/color-512.ktx2",
+      "bytes": 60046,
+      "sha256": "b55571a1fe117ca6f0cc41ec6b4d82d2dddd7eec3ba191741feb776334f3459a"
+     },
+     "1024": {
+      "file": "paving/pavers/stone-floor-006/color-1024.ktx2",
+      "bytes": 172849,
+      "sha256": "f339a94ba1fef9cf44826c612ba5ab7ee69c6c8640a384322c8531ddaefa195a"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/stone-floor-006/normal-256.ktx2",
+      "bytes": 53110,
+      "sha256": "3aec31f3e172fd0806601bd136055840e4ab0bae70f8ea39f1a749148f39a404"
+     },
+     "512": {
+      "file": "paving/pavers/stone-floor-006/normal-512.ktx2",
+      "bytes": 223265,
+      "sha256": "a71df2dae434dc13b0fdd86f4814913876799cad9537884f6d0d3f632e5a764b"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/stone-floor-006/orm-256.ktx2",
+      "bytes": 29569,
+      "sha256": "6928437a05f4e8e29d5af0d4e183c3c0f70f4beefe54b60b603107fe98775b41"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/stone-path-003",
+   "name": "Stone Path 003",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "stone",
+    "path"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.65,
+    1.65
+   ],
+   "color": [
+    0.128,
+    0.125,
+    0.103
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2020/01/28/stone-path-003/",
+   "preview": "paving/pavers/stone-path-003/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/stone-path-003/color-256.ktx2",
+      "bytes": 21782,
+      "sha256": "79fc528c5aa3688b11dd03b877e05fbaab6aaa4e574376a873136ca9be80ad75"
+     },
+     "512": {
+      "file": "paving/pavers/stone-path-003/color-512.ktx2",
+      "bytes": 79585,
+      "sha256": "f5c1f2c5a66b619ada59d429d919dc93222d0186b21e05f1fd7db49143491a7c"
+     },
+     "1024": {
+      "file": "paving/pavers/stone-path-003/color-1024.ktx2",
+      "bytes": 252246,
+      "sha256": "66f001d254e9a6232e5d3dcf62d181a89fb53bdd79ad508d43bdc72c6eb669a1"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/stone-path-003/normal-256.ktx2",
+      "bytes": 71333,
+      "sha256": "9edf39bdde19cc17d67e16d6c6c2d78f7cc55350cb2e018c1aa036e3100a03e3"
+     },
+     "512": {
+      "file": "paving/pavers/stone-path-003/normal-512.ktx2",
+      "bytes": 266661,
+      "sha256": "9c41fac35aaa56e2562fd72b4eab12aa7c7f97b82b681cc9c42599d60d0dc272"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/stone-path-003/orm-256.ktx2",
+      "bytes": 51910,
+      "sha256": "58f7111f477de28e7ade76c5870e73a8c78f000d743499a3b22b5c78f86492cb"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/stone-path-004",
+   "name": "Stone Path 004",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "stone",
+    "path"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.68,
+    1.68
+   ],
+   "color": [
+    0.123,
+    0.102,
+    0.054
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2020/02/07/stone-path-004/",
+   "preview": "paving/pavers/stone-path-004/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/stone-path-004/color-256.ktx2",
+      "bytes": 21976,
+      "sha256": "5cd942b6e0c929954b94ebe04d0b238e4a220bbe98f21fa57c203187927cdf13"
+     },
+     "512": {
+      "file": "paving/pavers/stone-path-004/color-512.ktx2",
+      "bytes": 79575,
+      "sha256": "2e25659fa008ffe8be391bd9fbd726328e37a5ab897b873aac9b6a204d882ceb"
+     },
+     "1024": {
+      "file": "paving/pavers/stone-path-004/color-1024.ktx2",
+      "bytes": 252797,
+      "sha256": "3e01d6cf7ced4175e99bf55e93df84252a001264f20c1dae007edd30c6a91ff0"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/stone-path-004/normal-256.ktx2",
+      "bytes": 68008,
+      "sha256": "ffa533c9aae0e0f3ed1a2bdb672e9a475d0254ce860aeed83321e59d9f760f6d"
+     },
+     "512": {
+      "file": "paving/pavers/stone-path-004/normal-512.ktx2",
+      "bytes": 250541,
+      "sha256": "3a231af6a01482cbf739f4f4e5b388c3d028153052315020a60bd18e50ff1e71"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/stone-path-004/orm-256.ktx2",
+      "bytes": 47485,
+      "sha256": "011eb11ce3faea6e79a41928b84bfbeb41fc2d554fcb1bedbc684b501a62926c"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tactile-ground-001",
+   "name": "Tactile Ground 001",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tactile",
+    "ground"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.123,
+    0.121,
+    0.118
+   ],
+   "metal": 0.1,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2020/03/04/tactile-ground-001/",
+   "preview": "paving/pavers/tactile-ground-001/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tactile-ground-001/color-256.ktx2",
+      "bytes": 19370,
+      "sha256": "82729e128cdf1070f4538da3a883c0222789830f005bdee73fc2de9c5202ca44"
+     },
+     "512": {
+      "file": "paving/pavers/tactile-ground-001/color-512.ktx2",
+      "bytes": 71045,
+      "sha256": "39ab380acce63c01f37ed290ab946a85257707dc462938358185dbf37067cb6f"
+     },
+     "1024": {
+      "file": "paving/pavers/tactile-ground-001/color-1024.ktx2",
+      "bytes": 225486,
+      "sha256": "ee8fca3f2130e643d5138566984e7ed019df6c848a43ea54f8b5b465ea16ce08"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tactile-ground-001/normal-256.ktx2",
+      "bytes": 63135,
+      "sha256": "d5175f524ada1dc9c1ac141a29ef034cbedcb058c66afecab7a969606fa924b5"
+     },
+     "512": {
+      "file": "paving/pavers/tactile-ground-001/normal-512.ktx2",
+      "bytes": 251202,
+      "sha256": "c1713e4ea0fd85d188fef51a086ada50eea1189a3bca3930e44fbff3979ed655"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tactile-ground-001/orm-256.ktx2",
+      "bytes": 53284,
+      "sha256": "b9dd03be8584f83c7ed1b3d548bfc1957cf4caf823801ed2262425866258ffed"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0009",
+   "name": "Tactile Pavement Sidewalk Tile Texture",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "dirt",
+    "yellow",
+    "floor",
+    "road",
+    "pavement",
+    "street",
+    "damaged",
+    "worn",
+    "broken",
+    "tile",
+    "plate",
+    "pattern",
+    "plastic",
+    "tactile",
+    "stud",
+    "tread",
+    "treadplate"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.4,
+    2.4
+   ],
+   "color": [
+    0.26,
+    0.16,
+    0.03
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/47/",
+   "preview": "paving/pavers/tiles-0009/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0009/color-256.ktx2",
+      "bytes": 17528,
+      "sha256": "dc675426b3f3f5e95cdb03b695c4cabc4b59e922a3324757c922176398b0c535"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0009/color-512.ktx2",
+      "bytes": 65571,
+      "sha256": "96d81eee28b3d5878a8c35611fc4caef502bb70ec58ad87def3e317618ff4c8a"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0009/color-1024.ktx2",
+      "bytes": 204890,
+      "sha256": "bb598917e1059c4f4146a49ee578c93d3bb0dd60e7038c96286292b4bf1b1a2a"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0009/normal-256.ktx2",
+      "bytes": 14205,
+      "sha256": "70ccfcbdcc4d4253a72f57c6631e12e3a1288b47be7949e34621c4f34df8f36c"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0009/normal-512.ktx2",
+      "bytes": 39808,
+      "sha256": "f1eda0e534f700ac167b5a61dca7db55a1bd2702d0e4be869c4772d3d7d35f85"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0009/orm-256.ktx2",
+      "bytes": 29879,
+      "sha256": "11376986a520eab56dbf312cccd394d7b873966cd579185315ce3050f035f8d1"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0073",
+   "name": "Hexagonal Yellow Paving Tiles",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "terracotta",
+    "terra",
+    "cotta",
+    "hexagon",
+    "hexagonal",
+    "floor",
+    "brown",
+    "yellow",
+    "pavement",
+    "paver"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.04,
+    2.04
+   ],
+   "color": [
+    0.279,
+    0.18,
+    0.064
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/481/",
+   "preview": "paving/pavers/tiles-0073/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0073/color-256.ktx2",
+      "bytes": 16048,
+      "sha256": "dd829b11bd120be49d12cb06ed7ff045ae46620666b3dcbe7d4e95553c268553"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0073/color-512.ktx2",
+      "bytes": 57204,
+      "sha256": "1a692f785d41fc57ffc4baf3dd9f9801d1edef02454d0bc193cb1e9e4b0d1370"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0073/color-1024.ktx2",
+      "bytes": 181782,
+      "sha256": "4c05bde1dc193bf20f1851cacd3ea064910aea143f00059c380c09a8dc65273e"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0073/normal-256.ktx2",
+      "bytes": 51708,
+      "sha256": "887dc102023b994db1a41bac3c120b72cea0c05cf3bf1d997a0c5e9f2adefd20"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0073/normal-512.ktx2",
+      "bytes": 255339,
+      "sha256": "b5222de4d2882f634ad1a508090e8bffd87e63c4d5528cc72afaf6b5738b77ef"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0073/orm-256.ktx2",
+      "bytes": 40494,
+      "sha256": "55f773331bf83b6bb9253bededee11bc2f8a2186154a8a1822a8d7f1c09623d4"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0074",
+   "name": "Zig Zag Unipaver Block Bricks",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "pavement",
+    "road",
+    "street",
+    "floor",
+    "concrete",
+    "grey",
+    "gray",
+    "zigzag"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.25,
+    2.25
+   ],
+   "color": [
+    0.277,
+    0.244,
+    0.205
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/482/",
+   "preview": "paving/pavers/tiles-0074/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0074/color-256.ktx2",
+      "bytes": 18510,
+      "sha256": "3f70ffdf7825b98a72154e8d45e68b82f51d0b4c1fd1b9791c1af40b597d3fe9"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0074/color-512.ktx2",
+      "bytes": 67244,
+      "sha256": "84ee6f044867e6dcf756c8d0f596d0217ce92367a3818fcffe51e43fa31b7a8e"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0074/color-1024.ktx2",
+      "bytes": 211739,
+      "sha256": "1011b67c01bc5ac1ff25aceb4ff7c95828ae65cedaca2016a9c21b68e63762a6"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0074/normal-256.ktx2",
+      "bytes": 59819,
+      "sha256": "8f03d3b89f6030ab1eeafb6488a7009bc7fa2be2af4b08ea7b8cae3b0a67a169"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0074/normal-512.ktx2",
+      "bytes": 270444,
+      "sha256": "1d34c70c90e3a6b8a4cc220a74af7d96bc1709a350a1464cea3410b925c0329f"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0074/orm-256.ktx2",
+      "bytes": 41156,
+      "sha256": "ddf222b80d0d48133d218564e7aa1c887bb3bc83264914043200ee4197548288"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0075",
+   "name": "Zig Zag Unipaver Concrete Bricks in Herringbone",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "pavement",
+    "road",
+    "street",
+    "floor",
+    "concrete",
+    "red",
+    "orange",
+    "herringbone",
+    "zigzag"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.7,
+    2.7
+   ],
+   "color": [
+    0.413,
+    0.137,
+    0.081
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/483/",
+   "preview": "paving/pavers/tiles-0075/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0075/color-256.ktx2",
+      "bytes": 18303,
+      "sha256": "89397520819c5674489c07fb487a27609c135e474e406e3eb6a1598c42934b8f"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0075/color-512.ktx2",
+      "bytes": 66983,
+      "sha256": "0b4a2e84fa0685beeaeb2de0496c22a2a8a22f82cac4b1ff6adcd6b8babb910c"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0075/color-1024.ktx2",
+      "bytes": 215343,
+      "sha256": "2962c8e3026bd61a05b0908b9aae14b6ca1c61236b30a9b09ddd50c60cccf4a0"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0075/normal-256.ktx2",
+      "bytes": 58341,
+      "sha256": "3b5b6a444f5571bbb53cc5265bd0c8a1f1ceda7c5e10f22bed948cfbdaffe3f3"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0075/normal-512.ktx2",
+      "bytes": 268648,
+      "sha256": "7fe30840eff98ae00341d12abdececf9baf83d5696d0be94a6a6bd4a4fb5d84c"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0075/orm-256.ktx2",
+      "bytes": 37636,
+      "sha256": "cf9617e8a328c3839155f12febf3fb3639444491bc7912363e55991db8a95073"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0076",
+   "name": "Y-Shape Paver Interlocking Cement Blocks",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "pavement",
+    "road",
+    "street",
+    "floor",
+    "concrete",
+    "cement",
+    "red",
+    "orange",
+    "y-shape",
+    "interlocking"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.8,
+    2.8
+   ],
+   "color": [
+    0.442,
+    0.147,
+    0.087
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/484/",
+   "preview": "paving/pavers/tiles-0076/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0076/color-256.ktx2",
+      "bytes": 19142,
+      "sha256": "f665b8f24aa2fb790252f0427bec80b7189fb58e18761e169b5e03b77240574d"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0076/color-512.ktx2",
+      "bytes": 68375,
+      "sha256": "5654a4fb458145d537b1e799eaf172991de29b2fbd04ecc6c0ad2d6785cec8f0"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0076/color-1024.ktx2",
+      "bytes": 214513,
+      "sha256": "661d64243d0305f77068fa79af0e2aea25c0a054e8f8d41f0f0a7c9fd342d75d"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0076/normal-256.ktx2",
+      "bytes": 58655,
+      "sha256": "723f2de1ab08d7aee168652e82dd0b6cbac8a3bb6209330f84b3a0969ca124e8"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0076/normal-512.ktx2",
+      "bytes": 280349,
+      "sha256": "3aca923098b029d84656cc9108520107129c10c4a61799bdea4266d172787a55"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0076/orm-256.ktx2",
+      "bytes": 53799,
+      "sha256": "025b6f0e39c6e61ff82d7c9dc67bccef002ac0e807b4e6295ab93f8a8160407a"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0077",
+   "name": "Zig Zag Alternating Color Unipaver Blocks",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "road",
+    "street",
+    "floor",
+    "concrete",
+    "cement",
+    "red",
+    "orange",
+    "grey",
+    "gray",
+    "zigzag",
+    "interlocking"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.25,
+    2.25
+   ],
+   "color": [
+    0.271,
+    0.167,
+    0.135
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/485/",
+   "preview": "paving/pavers/tiles-0077/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0077/color-256.ktx2",
+      "bytes": 19698,
+      "sha256": "dbbc6bd76d7bdc4a9a2fbd20f3d99f820d164a7f94e8f2c2b09143282d41ad9b"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0077/color-512.ktx2",
+      "bytes": 70429,
+      "sha256": "457409fa0ab59b273f08324787328f493cda8607dc36fba9b6dcc86709165cbc"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0077/color-1024.ktx2",
+      "bytes": 220359,
+      "sha256": "46cc3f8036a15de3675153a5c695a92d0e33a5a7fad110d2fd0a25249f43d333"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0077/normal-256.ktx2",
+      "bytes": 59819,
+      "sha256": "8f03d3b89f6030ab1eeafb6488a7009bc7fa2be2af4b08ea7b8cae3b0a67a169"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0077/normal-512.ktx2",
+      "bytes": 270444,
+      "sha256": "1d34c70c90e3a6b8a4cc220a74af7d96bc1709a350a1464cea3410b925c0329f"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0077/orm-256.ktx2",
+      "bytes": 41158,
+      "sha256": "e1817c74f0b5ac0617a60d2565b22361162160a6dfb11a623c0a106806e8bc1a"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0079",
+   "name": "Zigzag Unipaver Blocks in Herringbone with Alternating Diagonals",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "road",
+    "street",
+    "floor",
+    "concrete",
+    "cement",
+    "zigzag",
+    "diagonal",
+    "orange",
+    "grey",
+    "gray",
+    "herringbone"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.7,
+    2.7
+   ],
+   "color": [
+    0.264,
+    0.165,
+    0.133
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/487/",
+   "preview": "paving/pavers/tiles-0079/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0079/color-256.ktx2",
+      "bytes": 19460,
+      "sha256": "cc12d8d6e0a66eba362b06853ba4888a32ceb1ecb4441bf7791bb8416019c79b"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0079/color-512.ktx2",
+      "bytes": 69174,
+      "sha256": "360de81f1ee8b8f3d354a2b2aa9476bb18064e92a951c2278e762d13900f8075"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0079/color-1024.ktx2",
+      "bytes": 219121,
+      "sha256": "e4681d2ddac08058d96bef7808251cc5108b92c41a81057a1d6b7cb4e3663c43"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0079/normal-256.ktx2",
+      "bytes": 60261,
+      "sha256": "34cc168c6bf878e6df765e6e672f98a976c24e7c4a7906faf46257a669e4de9b"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0079/normal-512.ktx2",
+      "bytes": 271796,
+      "sha256": "0561fbcee0b2682b122afe572f462821664d80a321a09cbd0f07423e7920699e"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0079/orm-256.ktx2",
+      "bytes": 38842,
+      "sha256": "c5a9605289050661266a974f5de6a8f8034a9f131cc19c2387ace27ffbaa2de7"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0080",
+   "name": "Zigzag Unipaver Blocks in Basketweave with Alternating Colours",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "zigzag",
+    "grey",
+    "gray",
+    "red",
+    "orange",
+    "basketweave"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.25,
+    2.25
+   ],
+   "color": [
+    0.237,
+    0.151,
+    0.116
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/490/",
+   "preview": "paving/pavers/tiles-0080/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0080/color-256.ktx2",
+      "bytes": 19355,
+      "sha256": "8288e4dbbd6409ab7c30c8c9f7a46536398a7313ee672e85f03fa89b9be2007d"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0080/color-512.ktx2",
+      "bytes": 68089,
+      "sha256": "a00d849861a245be8f5806e2d4c5fc7e77bcd5aa0b54d583e964ac1c98442185"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0080/color-1024.ktx2",
+      "bytes": 212378,
+      "sha256": "be5dfcde7e8fc6fefdba500d516a0e252f30176ef1148d7c3c7a8f768a1d175a"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0080/normal-256.ktx2",
+      "bytes": 56914,
+      "sha256": "d146add10a31b188cdcc62c38c6d2a85c79bff6108bd827f4612a4bfecb05eb2"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0080/normal-512.ktx2",
+      "bytes": 272989,
+      "sha256": "2838a2d355397c00ca035a876d720c849dca2161b46e45ec690c9a4c5f094d34"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0080/orm-256.ktx2",
+      "bytes": 42418,
+      "sha256": "32ce382c870f250ec147480944b8c31a8988aa5cb85a2d8170354311c2f761a7"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0082",
+   "name": "Dirty Zigzag Unipaver Bricks in Herringbone",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "zigzag",
+    "grey",
+    "gray"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.7,
+    2.7
+   ],
+   "color": [
+    0.197,
+    0.171,
+    0.134
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/492/",
+   "preview": "paving/pavers/tiles-0082/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0082/color-256.ktx2",
+      "bytes": 17847,
+      "sha256": "b8223548ba65a11e4086882539249b2a44f37ce3253cbcd2444c2e64d9bfb87d"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0082/color-512.ktx2",
+      "bytes": 65055,
+      "sha256": "c07225cbe683849d5d69613edff44a9bc0f7ea94364b2b924798de56aec363ce"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0082/color-1024.ktx2",
+      "bytes": 205710,
+      "sha256": "37aea8bf25da5d86e5de7b0f3ca2b4c1c8e59432ff4835616326c2ed104478a5"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0082/normal-256.ktx2",
+      "bytes": 73257,
+      "sha256": "42fd8e20235eca9d2440605cdccd4105f59d6bf4e40d8bfadee9f07959f381e1"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0082/normal-512.ktx2",
+      "bytes": 302825,
+      "sha256": "1d71ca7a9c787caacd4468aac2d3f1b80461014584ad9b2b6ef0cc5255d9de24"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0082/orm-256.ktx2",
+      "bytes": 38051,
+      "sha256": "7343f9253138659e27d68e40a28b694a230494e74fafb71e931f27a478f9254f"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0083",
+   "name": "Old Y-Shape Concrete Bricks for Pavement",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "grey",
+    "gray",
+    "y-shape"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.8,
+    2.8
+   ],
+   "color": [
+    0.198,
+    0.171,
+    0.129
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/493/",
+   "preview": "paving/pavers/tiles-0083/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0083/color-256.ktx2",
+      "bytes": 18527,
+      "sha256": "546772524a2bddce6bd2baea86cb18d114faeef19504003fb73c7561e6ea996d"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0083/color-512.ktx2",
+      "bytes": 65617,
+      "sha256": "fc1e9d83e181fe02cf5a08f5e08f9edc017c656df110bfd8123ccadf8843b687"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0083/color-1024.ktx2",
+      "bytes": 203368,
+      "sha256": "ecd831f778905c089c28963ef6ef05ab7032d2d37c78104bce92a853c4958c9c"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0083/normal-256.ktx2",
+      "bytes": 76288,
+      "sha256": "4cbc6a8fb2df808d1b93082e0fff8b189923e64a959229204e844a84fcfb22fe"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0083/normal-512.ktx2",
+      "bytes": 310056,
+      "sha256": "5a2329571da668d6f84dd0c430a12929a51b9fbdd5c507d2a35e3bc00cee9c6b"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0083/orm-256.ktx2",
+      "bytes": 43688,
+      "sha256": "7a432fbdebe68f8715f88b4c9acbd8c0ef3478b85dccce4dfb517903bbb296bf"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0112",
+   "name": "I Shape Interlocking Paver Blocks",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "i-shaped",
+    "grey",
+    "gray",
+    "offset"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.8,
+    1.8
+   ],
+   "color": [
+    0.158,
+    0.151,
+    0.128
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/598/",
+   "preview": "paving/pavers/tiles-0112/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0112/color-256.ktx2",
+      "bytes": 17401,
+      "sha256": "948194db662b6668891cd3e2a1aa8e3ae4db11c1dfe4d93b720a9581f9d50832"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0112/color-512.ktx2",
+      "bytes": 63879,
+      "sha256": "0cb89fba041cf7e955a8e91c152c2a1de79462f479d85b9303574e45142a4d83"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0112/color-1024.ktx2",
+      "bytes": 199112,
+      "sha256": "c7357bec01faf9e1c6d0a45f6726ddc9e22e98f20d33583695bb3ac81cf8324b"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0112/normal-256.ktx2",
+      "bytes": 71556,
+      "sha256": "cdd67ad71cb3b00aee181404bd64ecc707d6911003f3a79f088cc9836a1c6ea6"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0112/normal-512.ktx2",
+      "bytes": 296732,
+      "sha256": "4555ba3c241769c92f30d2d5dac68d8853480de9774965aeac7b693e11bb17da"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0112/orm-256.ktx2",
+      "bytes": 37050,
+      "sha256": "99ddbdebb58da88d935b286fabafe2a2da5e7101369a735c7b355a3243a64ef3"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0113",
+   "name": "Large and Small Square Concrete Paving Outdoor Blocks",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "square",
+    "grey",
+    "gray"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.5,
+    2.5
+   ],
+   "color": [
+    0.157,
+    0.15,
+    0.127
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/599/",
+   "preview": "paving/pavers/tiles-0113/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0113/color-256.ktx2",
+      "bytes": 17676,
+      "sha256": "d88257c63d8b20bcd4c89319fa23f14d3cc094025970ef824a2ae3618bd37e31"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0113/color-512.ktx2",
+      "bytes": 64520,
+      "sha256": "bd0ed99262a610cfabffd22795972f1a204f49777560236bd0176471b46a5798"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0113/color-1024.ktx2",
+      "bytes": 198682,
+      "sha256": "c4f0c22bb6353c3952d28e72f9ed6d3b3be819d7c64ded7d488cbd10cb661e90"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0113/normal-256.ktx2",
+      "bytes": 72467,
+      "sha256": "daa358c18888287f90f2e0ce3d6b44d10bd9f83e9e02c60c08c12e6f5b6bfb18"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0113/normal-512.ktx2",
+      "bytes": 298012,
+      "sha256": "e3edd6c8e654e14ae138c434847f00674a959affa325ecd7654fc0edc376dacb"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0113/orm-256.ktx2",
+      "bytes": 38386,
+      "sha256": "99ea9565ab86ed4fe273801532f417151500c2988b07907d4b8034df610b1b37"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0114",
+   "name": "I Shape Paver Blocks with Alternating Colours",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "unipaver",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "i-shaped",
+    "red",
+    "orange",
+    "grey",
+    "gray",
+    "offset"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.8,
+    1.8
+   ],
+   "color": [
+    0.164,
+    0.125,
+    0.102
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/601/",
+   "preview": "paving/pavers/tiles-0114/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0114/color-256.ktx2",
+      "bytes": 18708,
+      "sha256": "7eba7a2db05ab3821eaeae0bab17423000be238e9be54accd9895234721048e8"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0114/color-512.ktx2",
+      "bytes": 68354,
+      "sha256": "4a4398409f93dadca57038c5d58ac1fc7390dfaac492607557117aee435ffce4"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0114/color-1024.ktx2",
+      "bytes": 212797,
+      "sha256": "c3fd082c025c676e5805b1d31d48d24efbb7d2d388a2ef5734444bb3007357a6"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0114/normal-256.ktx2",
+      "bytes": 70645,
+      "sha256": "67543dcc27fb0f92b71921dcf1e57c93a2330176ff549503043dba13f0d6e636"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0114/normal-512.ktx2",
+      "bytes": 295698,
+      "sha256": "47217602487ebdc8a27cf5a9599b5e92464d19354555a98e682abfc6247e5d93"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0114/orm-256.ktx2",
+      "bytes": 35974,
+      "sha256": "f90a9b6d113e6ce1d0969b25bd3bada136c6b833d1f484b3cf51ce5faa3d6f55"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0115",
+   "name": "Square Concrete Paving Blocks in Alternating Colours",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "brick",
+    "block",
+    "paver",
+    "paving",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "road",
+    "street",
+    "concrete",
+    "cement",
+    "square",
+    "grey",
+    "gray",
+    "red",
+    "orange",
+    "alternating",
+    "color",
+    "colour"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.5,
+    2.5
+   ],
+   "color": [
+    0.166,
+    0.149,
+    0.136
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/602/",
+   "preview": "paving/pavers/tiles-0115/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0115/color-256.ktx2",
+      "bytes": 18617,
+      "sha256": "733f9aede492ab34433ad627b399ff427f4067c129ce5d7c0bc7285e937948d6"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0115/color-512.ktx2",
+      "bytes": 66698,
+      "sha256": "24fa1fb27b429542ce4fe505c4d31a940d7b11c319470614bc3ff6f192ec8364"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0115/color-1024.ktx2",
+      "bytes": 204435,
+      "sha256": "8dbd20c7e56887f82ba8bc158d6c5301eff9bbb8def71be6a6dec00b1885b4a4"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0115/normal-256.ktx2",
+      "bytes": 73294,
+      "sha256": "7c6748485bbab23b26a9ae92684d052df662d7228d0d60fd7989945760c2cbf4"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0115/normal-512.ktx2",
+      "bytes": 300388,
+      "sha256": "e289666b5c6303e713c07d68e9bcc33dca2f00bb64f69b1fb33e4ee1b5bfb9f4"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0115/orm-256.ktx2",
+      "bytes": 38353,
+      "sha256": "f05dc615ab6d01081eaa98de6c7689fff32bbfe66122a67f97c3da63f6cd7cef"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0116",
+   "name": "Fan-Shaped Grey Pavement Tiles with Marble Chips",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "grey",
+    "gray",
+    "fan-shaped",
+    "fan",
+    "shaped",
+    "marble",
+    "chip",
+    "floor",
+    "wall"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    3.2,
+    3.2
+   ],
+   "color": [
+    0.132,
+    0.124,
+    0.124
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/603/",
+   "preview": "paving/pavers/tiles-0116/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0116/color-256.ktx2",
+      "bytes": 18140,
+      "sha256": "9fce6ac10bd7440d0e1381a85c1c88b05fe28fede5fbebd7c333b21b56013cb2"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0116/color-512.ktx2",
+      "bytes": 69091,
+      "sha256": "6a484e5c543a2712324174780b3c10dca3c7784b0efc198f8344b26a86168ce9"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0116/color-1024.ktx2",
+      "bytes": 223389,
+      "sha256": "c5a6f4b3097c66f4959953c10fdb51114f2b8797a79622a56135a597f4a73154"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0116/normal-256.ktx2",
+      "bytes": 29410,
+      "sha256": "5a4157dc4213cf7fb45973096da88273fdbe3ff75d8482292c517d3f61e5fc57"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0116/normal-512.ktx2",
+      "bytes": 98156,
+      "sha256": "aeab79ffe079168f36bdbae2ca48eef4b6df5dcd468da74be2874ed118f46cd7"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0116/orm-256.ktx2",
+      "bytes": 20115,
+      "sha256": "18f0ecf60eaaa6406d87767f73cfe438ca0d4a6abaaa8d15c3145cc22449b3b7"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0118",
+   "name": "Fidget Shaped Grey Pavement Tiles",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "fidget",
+    "square",
+    "grey",
+    "gray",
+    "pavement",
+    "shiny",
+    "floor",
+    "smooth"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.169,
+    0.169,
+    0.167
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/605/",
+   "preview": "paving/pavers/tiles-0118/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0118/color-256.ktx2",
+      "bytes": 17480,
+      "sha256": "03739e4d869bfa9fe3b05f4ec1f76503cdf7f619cbc2acc349bb6851abe1d842"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0118/color-512.ktx2",
+      "bytes": 63170,
+      "sha256": "49becbd4f2015bf65385d726a2e7e64131288c96c7b31973f4ae896ba8ed82e5"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0118/color-1024.ktx2",
+      "bytes": 193425,
+      "sha256": "31c2f9366b8e02b5ee4ec906d549f20bbbaf61ad832e321e88dbd342d747b371"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0118/normal-256.ktx2",
+      "bytes": 37739,
+      "sha256": "9400c7c09a975778098c01fe98ce938486824dd8799854d8430ee52c8174e405"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0118/normal-512.ktx2",
+      "bytes": 112447,
+      "sha256": "cbed57a94e97d8bfec3c82a776a92dd8452d1e07cbb157ae982fbb8458c24045"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0118/orm-256.ktx2",
+      "bytes": 42896,
+      "sha256": "142d4fdf9d493de0b0754be0039ac91270e60214a14613f113ef007d3a18ae3c"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0122",
+   "name": "Gray Pavement Tiles Consisting of Circles and Squares",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "circle",
+    "circular",
+    "square",
+    "patterned",
+    "pavement",
+    "floor",
+    "shiny",
+    "smooth",
+    "spot",
+    "spotted",
+    "grey",
+    "gray"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.094,
+    0.085,
+    0.083
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/629/",
+   "preview": "paving/pavers/tiles-0122/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0122/color-256.ktx2",
+      "bytes": 19753,
+      "sha256": "cca52402970aabc7f4430bf9d8b7d5b0d1fa693e304f11cb1df3303a4bf85088"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0122/color-512.ktx2",
+      "bytes": 70946,
+      "sha256": "e71675cdb25182fb0b2a35dc8a4ad1aa2c5283cea869b84196246385c3d14ada"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0122/color-1024.ktx2",
+      "bytes": 219852,
+      "sha256": "82c5c9c7d68274c846c0c2a1fed7aeb9e0c395b31cf29089db484a82c62b6309"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0122/normal-256.ktx2",
+      "bytes": 41326,
+      "sha256": "c8e5177c7c273d7ed95d48715534e17d1fb6bf9c50adedf858e7009bf0340e02"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0122/normal-512.ktx2",
+      "bytes": 126228,
+      "sha256": "6aee005c91c9dffaaa04e913853ade1c0abc025e0e6197969e38658586f9e263"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0122/orm-256.ktx2",
+      "bytes": 43769,
+      "sha256": "6bd8b410d9b3c7def857fbea84cd1c40bcca260dd44734963dd40fba2d7c9abe"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0123",
+   "name": "Gray Pavement Tiles Consisting of Hexagons and Crosses",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "diamond",
+    "cross",
+    "patterned",
+    "pavement",
+    "floor",
+    "shiny",
+    "smooth",
+    "spot",
+    "spotted",
+    "grey",
+    "gray"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.1,
+    0.089,
+    0.087
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/631/",
+   "preview": "paving/pavers/tiles-0123/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0123/color-256.ktx2",
+      "bytes": 19748,
+      "sha256": "4198e0a7a7ab22ef0e5eb686d19daff00c5c487eb28279989dc92b51d572ff1c"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0123/color-512.ktx2",
+      "bytes": 71230,
+      "sha256": "ed668be8c20e72a1839493365e7d895fefe8baed7c2f2e3caceca4645c3300d1"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0123/color-1024.ktx2",
+      "bytes": 222364,
+      "sha256": "65cc79a814c044056b9dadbdc6e01e3fa0de579702e699a9afa510b1aab8e549"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0123/normal-256.ktx2",
+      "bytes": 33200,
+      "sha256": "20419ffba02e7797d647a1dcc8f13e344142939ec10bf6124688d418c8cd54de"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0123/normal-512.ktx2",
+      "bytes": 91659,
+      "sha256": "395616622a2a62d79d0a6fbcc3d1339b1f5c3d02b01dd5b8372ec629cfb4c1e3"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0123/orm-256.ktx2",
+      "bytes": 40365,
+      "sha256": "fe5dd75a77300d9a417d87d137e864e6c6f6ec82f26a44e3df23d1640dd6d637"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/pavers/tiles-0128",
+   "name": "Floor Pavement Tiles of Squares and Diamond Shapes",
+   "category": "paving",
+   "subcategory": "pavers",
+   "tags": [
+    "tile",
+    "brick",
+    "pavement",
+    "pedestrian",
+    "floor",
+    "street",
+    "concrete",
+    "cement",
+    "square",
+    "diamond",
+    "octagon",
+    "octagonal",
+    "gray",
+    "grey"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.1,
+    2.1
+   ],
+   "color": [
+    0.152,
+    0.146,
+    0.124
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/640/",
+   "preview": "paving/pavers/tiles-0128/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/pavers/tiles-0128/color-256.ktx2",
+      "bytes": 18227,
+      "sha256": "5638f1ac1adecf5020491ca0c823f09a0b7b01a9ee45bcd6705f49bcbc92e3c7"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0128/color-512.ktx2",
+      "bytes": 65479,
+      "sha256": "a35d6172f0b591844e3358ca85f94a8128f696d52f13a93ccf95f0632fceb32b"
+     },
+     "1024": {
+      "file": "paving/pavers/tiles-0128/color-1024.ktx2",
+      "bytes": 203922,
+      "sha256": "39fed76d67f51b12d3054f5c2c0e0c3d7817fdc4cd981fcfdf0941ee207c214a"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/pavers/tiles-0128/normal-256.ktx2",
+      "bytes": 76514,
+      "sha256": "14f880bac41ef9a18a5cedfb2d3ecc369ac6a11d30a92534bb580fdc7739fa37"
+     },
+     "512": {
+      "file": "paving/pavers/tiles-0128/normal-512.ktx2",
+      "bytes": 308706,
+      "sha256": "67f474b275623392a6fc8533e184a209519295b4f93a442a3561e20a10267b8c"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/pavers/tiles-0128/orm-256.ktx2",
+      "bytes": 42128,
+      "sha256": "5358c3d865c144b3281ffdaed52954a7f7c7012a9c7305f612b6d16dbd8e930b"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/roads/road-001-3dtextures",
+   "name": "Road 001",
+   "category": "paving",
+   "subcategory": "roads",
+   "tags": [
+    "road"
+   ],
+   "uses": [
+    "road"
+   ],
+   "size": [
+    7,
+    7
+   ],
+   "color": [
+    0.073,
+    0.071,
+    0.063
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2021/04/14/road-001/",
+   "preview": "paving/roads/road-001-3dtextures/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/roads/road-001-3dtextures/color-256.ktx2",
+      "bytes": 12459,
+      "sha256": "6f7d65d94ef96b0a4f3eae920ab4164d22b2f037cb86107954fb0051deccb8cc"
+     },
+     "512": {
+      "file": "paving/roads/road-001-3dtextures/color-512.ktx2",
+      "bytes": 49373,
+      "sha256": "6770d1c73ce178a8570ea37ea3eb3ccb2afe03010e87de7742d39d4ab9326e1c"
+     },
+     "1024": {
+      "file": "paving/roads/road-001-3dtextures/color-1024.ktx2",
+      "bytes": 162726,
+      "sha256": "181fd763b21ed61d4cf2f5f5fedead298f482c501df9ef1e2faeac8551faf927"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/roads/road-001-3dtextures/normal-256.ktx2",
+      "bytes": 55347,
+      "sha256": "635124bfb81ddefe67bfabf1cd9c2ed53082be8d39177367f85338b231ff9941"
+     },
+     "512": {
+      "file": "paving/roads/road-001-3dtextures/normal-512.ktx2",
+      "bytes": 282315,
+      "sha256": "1eac8442d1bf59f9bb8f89b9e2ea72e3d838eb6b04135e563e0e4cd8e6eccc7d"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/roads/road-001-3dtextures/orm-256.ktx2",
+      "bytes": 32706,
+      "sha256": "13c2b24a0b95b7b18f6f128cbbd5c7b7d17fb08cffdc0951914a060ab8679a65"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/stylized/cobblestone-irregular-floor-001",
+   "name": "Cobblestone Irregular Floor 001",
+   "category": "paving",
+   "subcategory": "stylized",
+   "tags": [
+    "cobblestone",
+    "irregular",
+    "floor"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.073,
+    0.063,
+    0.066
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2025/12/23/cobblestone-irregular-floor-001/",
+   "preview": "paving/stylized/cobblestone-irregular-floor-001/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/color-256.ktx2",
+      "bytes": 21363,
+      "sha256": "71741b4179a8cc9e2f5dc96ae59155dbf62fd7948a20c3555bc1ab1e4e1cf9b4"
+     },
+     "512": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/color-512.ktx2",
+      "bytes": 75530,
+      "sha256": "a931d2529792589401c5d08c4be2cef481c6ddeb2cec53966594ce43849aa8a4"
+     },
+     "1024": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/color-1024.ktx2",
+      "bytes": 229225,
+      "sha256": "a3630cb5cbb5ec9c0b6f2565cef85a1519832ed6f1684ac384f1a97f361b59e7"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/normal-256.ktx2",
+      "bytes": 70071,
+      "sha256": "7ccc3073f60d0c9a8206721cab2285578070ddfeb0d95ac600dfd9da175c0c52"
+     },
+     "512": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/normal-512.ktx2",
+      "bytes": 271680,
+      "sha256": "a4f7df345b7a53cbafb229b1b8c61ae05926e7cfee2e68829bb56ef2b0c764b6"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/stylized/cobblestone-irregular-floor-001/orm-256.ktx2",
+      "bytes": 63553,
+      "sha256": "c56158c353cd42a0a0e4bf31c688fcdc2953b8216a7969189d709eca18552e34"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/stylized/railway-track-001",
+   "name": "Railway Track 001",
+   "category": "paving",
+   "subcategory": "stylized",
+   "tags": [
+    "railway",
+    "track"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    4.4,
+    4.4
+   ],
+   "color": [
+    0.142,
+    0.128,
+    0.123
+   ],
+   "metal": 0.11,
+   "relief": 1,
+   "alpha": "mask",
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2020/08/19/railway-track-001/",
+   "preview": "paving/stylized/railway-track-001/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/stylized/railway-track-001/color-256.ktx2",
+      "bytes": 13026,
+      "sha256": "49d98d7cdba06159067e87a6454a90cb2c3457bd3c643919e7b5d3fb269b3b41"
+     },
+     "512": {
+      "file": "paving/stylized/railway-track-001/color-512.ktx2",
+      "bytes": 36056,
+      "sha256": "3acf66968941492e764441271e70c5c2d4ebf91b3b016cc23bb800625986bb15"
+     },
+     "1024": {
+      "file": "paving/stylized/railway-track-001/color-1024.ktx2",
+      "bytes": 101656,
+      "sha256": "66d4e30efeb750a722941771a4355b7ede5f8a596a6232ac90df4a466fc796ee"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/stylized/railway-track-001/normal-256.ktx2",
+      "bytes": 19763,
+      "sha256": "d6daf55c0013a5c34ba9c7a6902bda260157053e959529d02e8c0e0be76533f8"
+     },
+     "512": {
+      "file": "paving/stylized/railway-track-001/normal-512.ktx2",
+      "bytes": 58961,
+      "sha256": "59f968e8fbc137a942ef6c26f472854ecc076d9837a0ec1dc8577e173860b6fb"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/stylized/railway-track-001/orm-256.ktx2",
+      "bytes": 29600,
+      "sha256": "1a42ea8c70bfd2b6a4ace1a1f1401a14f3e139f0afda066dd66ff4f4887fbba5"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/stylized/stone-floor-007",
+   "name": "Stone Floor 007",
+   "category": "paving",
+   "subcategory": "stylized",
+   "tags": [
+    "stone",
+    "floor"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2.4,
+    2.4
+   ],
+   "color": [
+    0.365,
+    0.359,
+    0.354
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2021/12/23/stone-floor-007/",
+   "preview": "paving/stylized/stone-floor-007/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/stylized/stone-floor-007/color-256.ktx2",
+      "bytes": 11630,
+      "sha256": "8c73f72a4af8e55ddc18efe6672836a2b23e722a3be7e8a5fdf2afdb8f2baffa"
+     },
+     "512": {
+      "file": "paving/stylized/stone-floor-007/color-512.ktx2",
+      "bytes": 35669,
+      "sha256": "e15f9865d8e20e66be65aaeba50008833ef7f0d94aa7335d809ae244230d9410"
+     },
+     "1024": {
+      "file": "paving/stylized/stone-floor-007/color-1024.ktx2",
+      "bytes": 106028,
+      "sha256": "cfa0667a3933925c2d3c23261f8c4dd042f5e059cabb2c9ffdf1c063cd6587f7"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/stylized/stone-floor-007/normal-256.ktx2",
+      "bytes": 22977,
+      "sha256": "17a29039319376af44a531dc30373534da3a5957f86f35a65537c378f9d56393"
+     },
+     "512": {
+      "file": "paving/stylized/stone-floor-007/normal-512.ktx2",
+      "bytes": 79965,
+      "sha256": "bec5c73d969524d016ae2f4f63ca8a242fb49c8f0bd5074c967108c4ab980458"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/stylized/stone-floor-007/orm-256.ktx2",
+      "bytes": 13820,
+      "sha256": "6f5c6d663aa384ddc7029c8cbf92ab3c2c133828ce6df435f99924903a11474c"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/stylized/stone-path-006",
+   "name": "Stone Path 006",
+   "category": "paving",
+   "subcategory": "stylized",
+   "tags": [
+    "stone",
+    "path"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.076,
+    0.072,
+    0.063
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2021/01/06/stone-path-006/",
+   "preview": "paving/stylized/stone-path-006/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/stylized/stone-path-006/color-256.ktx2",
+      "bytes": 21368,
+      "sha256": "9a79289729cacf562cf0561e67de11628548672c89af219c70e4d0cf92b68a5a"
+     },
+     "512": {
+      "file": "paving/stylized/stone-path-006/color-512.ktx2",
+      "bytes": 75088,
+      "sha256": "0d9dfb4209d49e8c59162f79f2b62f8a30e7481c1655cc4b4371d5439440b743"
+     },
+     "1024": {
+      "file": "paving/stylized/stone-path-006/color-1024.ktx2",
+      "bytes": 229493,
+      "sha256": "6fe1a3cbb30815aedd39fc73c40fd00c680987df4d73957bb03c84479cb84cba"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/stylized/stone-path-006/normal-256.ktx2",
+      "bytes": 81041,
+      "sha256": "052563199ba8024add99284d6161bc422750965da9203c0f189cb12f6dd5fc95"
+     },
+     "512": {
+      "file": "paving/stylized/stone-path-006/normal-512.ktx2",
+      "bytes": 315563,
+      "sha256": "edad30f52a8f4e835ca25d90a1de57048af5eff4e9f2f3a8c53364c91e3a84ed"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/stylized/stone-path-006/orm-256.ktx2",
+      "bytes": 50153,
+      "sha256": "db0e3d64f64b986f630f99a1585f1293446a274bb9febba71123360ad9c818a2"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/stylized/tiles-0023",
+   "name": "Classic Cobblestones with Puddles",
+   "category": "paving",
+   "subcategory": "stylized",
+   "tags": [
+    "tile",
+    "floor",
+    "cobblestone",
+    "stone",
+    "puddle",
+    "pavement",
+    "street",
+    "grey",
+    "gray"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    1.2,
+    1.2
+   ],
+   "color": [
+    0.386,
+    0.334,
+    0.298
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/304/",
+   "preview": "paving/stylized/tiles-0023/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/stylized/tiles-0023/color-256.ktx2",
+      "bytes": 20141,
+      "sha256": "8e9ca87bd046b61f1c92682a36514d1f5b251f66eb1f3bae4e05cee6154fe923"
+     },
+     "512": {
+      "file": "paving/stylized/tiles-0023/color-512.ktx2",
+      "bytes": 71121,
+      "sha256": "c0a85f76214655a841ddfde4fe02d0604d02a8c1171c627d668415d5503ac2ee"
+     },
+     "1024": {
+      "file": "paving/stylized/tiles-0023/color-1024.ktx2",
+      "bytes": 211340,
+      "sha256": "3669a8300421d5d6925ee9245d417833b5c3539af6e94d93552ca61a351c2fc8"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/stylized/tiles-0023/normal-256.ktx2",
+      "bytes": 60284,
+      "sha256": "7c61679000fc74a1efbb468773eeffd63348401b1d8f90fa31b84e3944ee91c1"
+     },
+     "512": {
+      "file": "paving/stylized/tiles-0023/normal-512.ktx2",
+      "bytes": 250791,
+      "sha256": "95567e7534326f62f6fcc906a76f00209a8391a27c95b0add8139b83506e59a8"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/stylized/tiles-0023/orm-256.ktx2",
+      "bytes": 66557,
+      "sha256": "2eb7ad3170c57192b395b01a590b601be9c8abaaf0f3f3f05b4dddb9ded27fe6"
+     }
+    }
+   }
+  },
+  {
+   "id": "paving/tiles/tiles-0035",
+   "name": "Brownish Terracotta Outdoor Tiles",
+   "category": "paving",
+   "subcategory": "tiles",
+   "tags": [
+    "tile",
+    "terracotta",
+    "terra",
+    "cotta",
+    "brown",
+    "orange",
+    "stone",
+    "pavement",
+    "floor",
+    "rough",
+    "square",
+    "rustic",
+    "old",
+    "worn",
+    "damaged"
+   ],
+   "uses": [
+    "floor"
+   ],
+   "size": [
+    4.8,
+    4.8
+   ],
+   "color": [
+    0.429,
+    0.308,
+    0.179
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/339/",
+   "preview": "paving/tiles/tiles-0035/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "paving/tiles/tiles-0035/color-256.ktx2",
+      "bytes": 20815,
+      "sha256": "c31d1dd98ee03c97430d575afa23b2da9c57865f74fc35df8789270d91752118"
+     },
+     "512": {
+      "file": "paving/tiles/tiles-0035/color-512.ktx2",
+      "bytes": 74989,
+      "sha256": "5c1d037678d6b88260910e90db2e850a25a0db22977c7704da7b49de731ee180"
+     },
+     "1024": {
+      "file": "paving/tiles/tiles-0035/color-1024.ktx2",
+      "bytes": 239019,
+      "sha256": "943d608870dfc70adbf7c0db7148903228c9ddc5159e7d348103c81cd26e7a95"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "paving/tiles/tiles-0035/normal-256.ktx2",
+      "bytes": 71479,
+      "sha256": "45fce7cde24fca12115f7c24e28dc22b1c87b0cdd1fb4d2986ff78b008cee075"
+     },
+     "512": {
+      "file": "paving/tiles/tiles-0035/normal-512.ktx2",
+      "bytes": 298109,
+      "sha256": "99602060b80a1a07c235b447200655a64fa9e67f2c76d3043a3c510aecb6dceb"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "paving/tiles/tiles-0035/orm-256.ktx2",
+      "bytes": 42040,
+      "sha256": "cc59097d20850ec1d39855456696baaf3f21aafdf86f3f3b1399a95db0bd8df0"
+     }
+    }
+   }
+  },
+  {
+   "id": "plaster/concrete/ground-0011",
+   "name": "Exposed Aggregate Concrete Pavement Texture",
+   "category": "plaster",
+   "subcategory": "concrete",
+   "tags": [
+    "concrete",
+    "asphalt",
+    "wall",
+    "rough",
+    "raw",
+    "gray",
+    "grey",
+    "floor",
+    "ground",
+    "road",
+    "pavement",
+    "street",
+    "bitumen",
+    "pebble"
+   ],
+   "uses": [
+    "wall",
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.255,
+    0.249,
+    0.276
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "TextureCan"
+   ],
+   "source": "https://www.texturecan.com/details/161/",
+   "preview": "plaster/concrete/ground-0011/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "plaster/concrete/ground-0011/color-256.ktx2",
+      "bytes": 18121,
+      "sha256": "cea7c17bc0ddac0ceaa97206ebc53c3f2be8fd5c6b6869ccc9597061d013e44c"
+     },
+     "512": {
+      "file": "plaster/concrete/ground-0011/color-512.ktx2",
+      "bytes": 66212,
+      "sha256": "914d9a7e0402b0f3d4a632685e517ac42344f7f1f9541f22fd7d3bacb31a4262"
+     },
+     "1024": {
+      "file": "plaster/concrete/ground-0011/color-1024.ktx2",
+      "bytes": 207929,
+      "sha256": "eb5e9046215e9a22f29fbce9d41826b69911164f5a552e95398ea26cf525a3fe"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "plaster/concrete/ground-0011/normal-256.ktx2",
+      "bytes": 73928,
+      "sha256": "23d4dbe4e153cd6686833af7073d13be5284291d556aa4598d0e4578ac819bb2"
+     },
+     "512": {
+      "file": "plaster/concrete/ground-0011/normal-512.ktx2",
+      "bytes": 306721,
+      "sha256": "c5a1e68c2b469d21009dc9a090b86fa0a964bd1d11a5235489990a074dc11108"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "plaster/concrete/ground-0011/orm-256.ktx2",
+      "bytes": 48595,
+      "sha256": "3152080cc879d3e6d2ab6809ee1fb25a1fab7b9c79ccf13f3822db664d31b1d2"
+     }
+    }
+   }
+  },
+  {
+   "id": "plaster/concrete/stone-path-005",
+   "name": "Stone Path 005",
+   "category": "plaster",
+   "subcategory": "concrete",
+   "tags": [
+    "stone",
+    "path"
+   ],
+   "uses": [
+    "wall",
+    "floor"
+   ],
+   "size": [
+    2,
+    2
+   ],
+   "color": [
+    0.189,
+    0.172,
+    0.141
+   ],
+   "metal": 0,
+   "relief": 1,
+   "license": "CC0-1.0",
+   "authors": [
+    "3DTextures.me"
+   ],
+   "source": "https://3dtextures.me/2020/07/02/stone-path-005/",
+   "preview": "plaster/concrete/stone-path-005/preview.webp",
+   "maps": {
+    "color": {
+     "256": {
+      "file": "plaster/concrete/stone-path-005/color-256.ktx2",
+      "bytes": 22568,
+      "sha256": "ebeea1bf6cbaf445695c4453f527393515fe7661de6e83642ab46027d8850a7d"
+     },
+     "512": {
+      "file": "plaster/concrete/stone-path-005/color-512.ktx2",
+      "bytes": 80463,
+      "sha256": "3f3e712437eafb72186da5b60e88396b9b0c3056334e65e189562d671029afa7"
+     },
+     "1024": {
+      "file": "plaster/concrete/stone-path-005/color-1024.ktx2",
+      "bytes": 254463,
+      "sha256": "ee2bcd02ee4e3c919bd7aae4fb55a1578a6be307a7ff2d0fa447be69b6e23d4d"
+     }
+    },
+    "normal": {
+     "256": {
+      "file": "plaster/concrete/stone-path-005/normal-256.ktx2",
+      "bytes": 82899,
+      "sha256": "0fccbc05394ed828657490852c957adab085485aaee217fb1e199607f5c6ffbc"
+     },
+     "512": {
+      "file": "plaster/concrete/stone-path-005/normal-512.ktx2",
+      "bytes": 323934,
+      "sha256": "a90d6759e5060d8b9e74ca89d004ab31e2556e33a8b4172d0910a81f64aca717"
+     }
+    },
+    "orm": {
+     "256": {
+      "file": "plaster/concrete/stone-path-005/orm-256.ktx2",
+      "bytes": 61919,
+      "sha256": "0bbb3f3012650c85be2df72dcb31c7c8b5bf30455755df4511eafa4cfb1ff233"
      }
     }
    }

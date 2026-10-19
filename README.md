@@ -1,7 +1,7 @@
 # OVGrid assets
 
 The public texture bank of [OVGrid](https://world.ovgrid.com), an open virtual world on a WebGPU
-planet: 2,772 materials for what people build, at `https://estebanrfp.github.io/ovgrid-assets/`.
+planet: 2,812 materials for what people build, at `https://estebanrfp.github.io/ovgrid-assets/`.
 
 Served by GitHub Pages, with CORS open to every origin. The bank is split by resolution so that
 each repository stays under GitHub's 1 GB:
@@ -23,8 +23,10 @@ colour, licence, authors, source); `textures/index.json` is the light index the 
 ## Licence
 
 The materials are dedicated to the public domain under [CC0 1.0](LICENSE), as their sources
-publish them: 1,894 from [ambientCG](https://ambientcg.com), 867 from
-[Poly Haven](https://polyhaven.com), and 11 made by OVGrid itself (water, end grain, glass).
+publish them: 1,894 from [ambientCG](https://ambientcg.com), 867 from [Poly
+Haven](https://polyhaven.com), 27 from [TextureCan](https://www.texturecan.com), 13 from
+[3DTextures.me](https://3dtextures.me) — the last two through OVGrid's quality gate
+(tools/texture-gate.js) — and 11 made by OVGrid itself (water, end grain, glass).
 Attribution is not required, but every material's authors and source page are in
 `textures/manifest.json` — thank you to all of them.
 
