@@ -1,8 +1,0 @@
-Decentraland avatar assets
-Copyright 2019 Metaverse Holdings Ltd.
-Licensed under the Apache License, Version 2.0 (see LICENSE).
-
-Bodies, wearables, face features and thumbnails from decentraland/avatar-assets (https://github.com/decentraland/avatar-assets): their meshes fitted to the
-bodies' bones and quantised, their maps converted to KTX2 and their thumbnails to WebP by OVGrid
-(tools/build-avatar-library.js). No trademark rights are granted (Apache License 2.0, section 6):
-the collections and pieces that bear a brand or a mark are left out (manifest.json, leftOut).
