@@ -25,7 +25,8 @@ colour, licence, authors, source); `textures/index.json` is the light index the 
 
 `avatar/v1/` is OVGrid's avatar library, as `https://assets.ovgrid.com/avatar/v1/` serves it:
 Decentraland's two base bodies with their skeleton and skins, 505 wearables in 28 collections (each
-with a mesh for every body it fits, its maps in KTX2 and a WebP thumbnail) and 89 face features.
+with a mesh for every body it fits, its maps in KTX2 and a WebP thumbnail), 89 face features, and
+Decentraland's common emotes as OVGrid's clips (`animations/dcl/`).
 `index.json` is the light index the world loads first; `manifest.json` lists every item's files,
 bytes and source. The meshes are fitted to the bodies' skeleton and quantised in OVGrid's own
 format. Pieces that bear a brand or a mark, or art licensed to a collection rather than to
